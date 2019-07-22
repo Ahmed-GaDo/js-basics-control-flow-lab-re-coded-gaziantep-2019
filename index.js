@@ -14,7 +14,7 @@ function scuberGreetingForFeet(feetValue){
   return charge;
 }
 
-function ternaryCheckCity(){
+
 function ternaryCheckCity(city){
   // Write your code here!
   let forCity;

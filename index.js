@@ -1,4 +1,4 @@
-function scuberGreetingForFeet(){
+
 function scuberGreetingForFeet(feetValue){
   // Write your code here!
   let charge;
@@ -27,7 +27,7 @@ function ternaryCheckCity(city){
   return forCity;
 }
 
-function switchOnCharmFromTip(){
+
 function switchOnCharmFromTip(Tips){
   // Write your code here!
   let tipAnswer;

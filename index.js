@@ -1,10 +1,11 @@
-function scuberGreetingForFeet(Value){
+function scuberGreetingForFeet(){
+function scuberGreetingForFeet(feetValue){
   // Write your code here!
-  let charge ;
-  if ( Value >= 400 ) {
+  let charge;
+  if (feetValue <= 400){
     charge = "This one is on me!";
   }
-  else if (Value > 2000 && Value <= 2500){
+  else if (feetValue > 2000 && feetValue <= 2500){
     charge = "I will gladly take your thirty bucks.";
   }
   else {
@@ -13,33 +14,32 @@ function scuberGreetingForFeet(Value){
   return charge;
 }
 
+function ternaryCheckCity(){
 function ternaryCheckCity(city){
   // Write your code here!
-  let YourCity;
+  let forCity;
   if (city === "NYC"){
-    YourCity = "Ok, sounds good.";
+    forCity = "Ok, sounds good.";
   }
   else{
-    YourCity = "No go.";
+    forCity = "No go.";
   }
-  return YourCity;
+  return forCity;
 }
 
+function switchOnCharmFromTip(){
 function switchOnCharmFromTip(Tips){
   // Write your code here!
-  let Answer;
+  let tipAnswer;
 
 
   if (Tips === "generous"){
-    Answer = "Thank you so much.";
+    tipAnswer = "Thank you so much.";
   }
   else if (Tips === "not as generous"){
-    Answer = "Thank you.";
+    tipAnswer = "Thank you.";
   }
   else {
-    Answer = "Bye.";
+    tipAnswer = "Bye.";
   }
-  return Answer;
-  } 
-
-
+  return tipAnswer;
